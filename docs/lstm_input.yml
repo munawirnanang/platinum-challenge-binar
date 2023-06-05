@@ -1,0 +1,15 @@
+tags:
+  - name: Input Sentiment Analysis using LSTM
+get:
+  description: Teks yang akan diproses
+parameters:
+  - name: body
+    in : body
+    required: true
+responses:
+  '200':
+    description: Successful responses
+  '400':
+    description: Bad Request
+  '500':
+    description: Internal Server Error
